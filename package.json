@@ -1,0 +1,27 @@
+{
+  "name": "TODOAPI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/server.js env=development",
+    "test": "./node_modules/mocha/bin/mocha",
+    "test-detail": "./node_modules/mocha/bin/mocha --reporter list",
+    "stop": "pkill -lf server.js"
+  },
+  "author": "kerkerj",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.9.0",
+    "debug": "^2.0.0",
+    "expect.js": "^0.3.1",
+    "express": "^4.9.5",
+    "log4js": "^0.6.21",
+    "mocha": "^1.21.4",
+    "mocha-mongoose": "^1.0.1",
+    "mongodb": "^1.4.19",
+    "mongoose": "^3.8.17",
+    "superagent": "^0.20.0",
+    "validator": "^3.19.1"
+  }
+}
