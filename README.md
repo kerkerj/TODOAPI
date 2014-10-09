@@ -39,9 +39,18 @@ global package:
 $ npm install -g nodemon 
 ```
 
+##Run Server
 
+```
+// Production mode
+$ node ./bin/server.js production
 
-`nodemon ./bin/server.js test`
+// development mode
+$ node ./bin/server.js development
+
+// test mode
+$ node ./bin/server.js test
+```
 
 ##Test flow
 
