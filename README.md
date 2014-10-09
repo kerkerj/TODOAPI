@@ -36,7 +36,7 @@ Then run `npm install`
 global package:
 
 ```
-$ npm install -g mocha nodemon 
+$ npm install -g nodemon 
 ```
 
 
